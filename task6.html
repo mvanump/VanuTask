@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login and Registration Form</title>
+    <link rel="stylesheet" href="task6.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <h1 style="text-align: center; color: blueviolet;">Student Registration Form</h1>
+        <hr style="width: 100;">
+        <form action="#">
+            <label for="fname">First Name :</label><br><br>
+            <input type="text" name="fname" placeholder="First Name" required><br><br>
+            <label for="lname">Last Name :</label><br><br>
+            <input type="text" name="lname" placeholder="Last Name" required><br><br>
+            <label for="course">Courses :</label><br><br>
+            <select name="" id="" required>
+                <option value="">Select Option</option>
+                <option value="web">Web Developement</option>
+                <option value="uiux">UI UX Design</option>
+                <option value="fsd">Full Stact Developement</option>
+            </select><br><br>
+            <label for="g">Gender :</label>
+            <input type="radio" name="g" style="width: 5%;">Male
+            <input type="radio" name="g" style="width: 5%;">Female<br><br>
+            <label for="date">DOB :</label><br><br>
+            <input type="date" name="date" required><br><br>
+            <label for="email">Email Id :</label><br><br>
+            <input type="email" name="email" placeholder="Email Id" required><br><br>
+            <label for="mobile">Contact Number :</label><br><br>
+            <input type="tel" name="mobile" placeholder="Contact Number" required><br><br>
+            <label for="address">Address :</label><br><br>
+            <textarea type="textarea" rows="3" cols="20" name="address" placeholder="Address"
+                required></textarea><br><br>
+            <label for="file">Upload Resume :</label><br><br>
+            <input type="file" name="file" style="padding: 0;"><br><br>
+            <label for="pw">Password :</label><br><br>
+            <input type="password" name="pw" placeholder="Password" required><br><br>
+            <label for="rpw">Re-Type Password :</label><br><br>
+            <input type="password" name="rpw" placeholder="Password" required><br><br>
+            <a href="task6_1.html"><input style="width: 25%; background-color: green; color: white; font-weight: bold;"
+                    type="submit" value="Register"></a>
+            <input type="reset" class="cancelbtn"
+                style="width: 25%; padding-left: 20px; background-color: red; color: white; font-weight: bold;" value="Cancel">
+        </form>
+</body>
+
+</html>
